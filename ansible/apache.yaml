@@ -1,0 +1,19 @@
+---
+- hosts: public
+  tasks:
+  - name: install the latest version of apache
+    yum:
+      name: httpd
+      update_cache: yes
+      state: latest
+  - name: 
+    service:
+      name: httpd
+      state: started 
+  - name: copy index file with owner and permissions
+    copy:
+      src: src/index.html
+      dest: /var/www/html
+      owner: root
+      group: root
+      mode: 0644

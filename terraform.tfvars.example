@@ -1,0 +1,14 @@
+# IaaS Classic Username: Classic Infrastructure username
+iaas_classic_username = "YOUR_USERNAME"
+
+# Iaas Classic API Key: Classic Infrastructure API Key
+iaas_classic_api_key = "YOUR_API_KEY"
+
+# The name provided to IBM Cloud for an uploaded public SSH key.
+ssh_key = "YOUR_SSH_KEY_LABEL"
+
+# Desired hostname for provisioned system.
+hostname = "HOST"
+
+# Desired TLD for provisioned system
+domain = "example.com"
