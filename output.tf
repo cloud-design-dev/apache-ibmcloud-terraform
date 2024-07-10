@@ -7,3 +7,4 @@ output "vm_hostname" {
   description = "Hostname of CentOS system"
   value       = ibm_compute_vm_instance.apache_vm.hostname
 }
+
