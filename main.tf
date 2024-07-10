@@ -26,7 +26,7 @@ module "ansible" {
   host_ip  = ibm_compute_vm_instance.apache_vm.ipv4_address
 }
 
-resource "null_resource" "ansible_new_key" {
+resource "null_resource" "ansible_playbook_run" {
   depends_on = [ibm_compute_vm_instance.apache_vm]
   provisioner "local-exec" {
     when    = create
