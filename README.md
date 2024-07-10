@@ -1,4 +1,3 @@
-https://ibm.ent.box.com/folder/82000083399?s=3upz1i2z5os8yrxzu5axlo19g7r8p3ev
 # Overview
 Building automation around infrastructure deployment can drastically reduce provisioning times and frequency of errors.  In this guide we will walk through automating the deployment of a vanilla apache web server using Terraform and Ansible. This is just a starting point, from which more customized solutions can be built.
 
