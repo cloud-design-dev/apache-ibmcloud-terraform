@@ -1,7 +1,7 @@
 # Overview
 
 Building automation around infrastructure deployment can drastically reduce provisioning times and frequency of errors.  In this guide we will walk through automating the deployment of a vanilla apache web server using Terraform and Ansible. This is just a starting point, from which more customized solutions can be built.
-> This repository has an associated blog post [here](https://community.ibm.com/community/user/home)
+> This repository has an associated blog post [here](https://community.ibm.com/community/user/cloud/blogs/jack-bernhardt/2024/07/11/terraform-deploying-an-apache-webserver-on-ibm-clo)
 
 ## The code in this example will:
 
